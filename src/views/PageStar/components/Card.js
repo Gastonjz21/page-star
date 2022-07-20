@@ -1,11 +1,11 @@
-function Card({character}) {
+function Card({characters}) {
     return(
         <div className="card">
             <ul>
-                <li>Name: {character.name}</li>
-                <li>Heigt: {character.height}</li>
-                <li>Mass: {character.mass}</li>
-                <li>Skin Color: {character.skin_color}</li>
+                <li>Name: {characters.name}</li>
+                <li>Heigt: {characters.height}</li>
+                <li>Mass: {characters.mass}</li>
+                <li>Skin Color: {characters.skin_color}</li>
             </ul>
         </div>
     )

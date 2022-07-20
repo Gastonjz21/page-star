@@ -21,15 +21,17 @@ function PageStar(){
     )
 
     return(
-        <section>
+        <section className='display'>
              <h1>Star Wars Characters</h1>
-             
+             <section className='grid'>
+
              {characters.map(
-                function(character){
-                    return <Card character={character}/>
+                function(characters){
+                    return <Card characters={characters}/>
                 }
              )}
-             
+
+             </section>
         </section>
     )
 }
