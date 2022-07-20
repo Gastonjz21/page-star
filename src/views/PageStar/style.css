@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ffdc8e;
+    background-color: #869F9D;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.card {
+    color: #ffffff;
+    background-color: #ffdc8e;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.card > ul {
+    list-style: none;
+}
